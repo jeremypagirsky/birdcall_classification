@@ -38,6 +38,7 @@ For any additional questions, please contact **Jeremy Pagirsky (jeremy.pagirsky@
 - [Valerio Velardo](https://github.com/musikalkemist/pytorchforaudio/blob/main/08%20Implementing%20a%20CNN%20network/cnn.py)
 - [Francois Lemarchand](https://www.kaggle.com/frlemarchand/bird-song-classification-using-an-efficientnet)
 - [Seth Adams](https://github.com/seth814/Audio-Classification/blob/master/models.py)
+- [Adam Sabra](https://github.com/theadamsabra/InstrumentClassifier)
 
 ## Repository Structure
 

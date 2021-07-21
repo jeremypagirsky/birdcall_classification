@@ -1,4 +1,4 @@
-![birb](/Users/jerpagirsky/Desktop/Flatiron/CourseMaterials/Phase_5/project_submission/images/header.png)
+![birb](images/header.png)
 
 # BirdCLEF-2021 Audio Classification
 
@@ -24,9 +24,9 @@ Coming soon.
 
 ## Future Work
 
-## For More Information
-
 Coming soon.
+
+## For More Information
 
 For any additional questions, please contact **Jeremy Pagirsky (jeremy.pagirsky@gmail.com)**
 
@@ -44,3 +44,4 @@ For any additional questions, please contact **Jeremy Pagirsky (jeremy.pagirsky@
 ```
 ├── images                                     <- Images of models' metrics and confusion matrices
 ├── README.md                                  <- The README for reviewers of this project
+├── birdclef-audio-classification.ipynb        <- Project code

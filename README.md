@@ -1,4 +1,4 @@
-![birb](https://storage.googleapis.com/kaggle-competitions/kaggle/25954/logos/header.png?t=2021-03-19-18-32-57)
+![birb](/Users/jerpagirsky/Desktop/Flatiron/CourseMaterials/Phase_5/project_submission/images/header.png)
 
 # BirdCLEF-2021 Audio Classification
 
@@ -16,15 +16,13 @@ This project seeks to implement deep learning techniques to identify bird specie
 
 ## Data
 
-The data was obtained from the [BirdCLEF 2021](https://www.kaggle.com/c/birdclef-2021) Kaggle competition.
+The data was obtained from the BirdCLEF 2021 Kaggle competition.
 
 ## Results
 
 Coming soon.
 
 ## Future Work
-
-Coming soon.
 
 ## For More Information
 
@@ -45,4 +43,4 @@ For any additional questions, please contact **Jeremy Pagirsky (jeremy.pagirsky@
 
 ```
 ├── images                                     <- Images of models' metrics and confusion matrices
-├── README.md                                  <- The README for reviewers of this project# audio_classification
+├── README.md                                  <- The README for reviewers of this project

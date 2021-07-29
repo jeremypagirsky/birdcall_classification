@@ -1,6 +1,6 @@
 ![birb](images/header.png)
 
-# BirdCLEF-2021 Audio Classification
+# BirdCLEF-2021 Birdcall Classification
 
 ## Background
 
@@ -32,13 +32,13 @@ Here are the geographical locations for each recording.
 
 Various model architectures have been compared against each other in terms of accuracy and loss scores.
 
-The baseline model was a CNN based on [Valerio Velardo's](https://github.com/musikalkemist/pytorchforaudio/blob/main/08%20Implementing%20a%20CNN%20network/cnn.py) baseline CNN in his YouTube series, [PyTorch for Audio](https://www.youtube.com/watch?v=gp2wZqDoJ1Y&list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&ab_channel=ValerioVelardo-TheSoundofAI). This model had a 60.32% training accuracy and a 43.61% testing accuracy.
+The baseline model was a CNN based on [Valerio Velardo's](https://github.com/musikalkemist/pytorchforaudio/blob/main/08%20Implementing%20a%20CNN%20network/cnn.py) baseline CNN in his YouTube series, [PyTorch for Audio](https://www.youtube.com/watch?v=gp2wZqDoJ1Y&list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&ab_channel=ValerioVelardo-TheSoundofAI). This model had a 76.49% training accuracy and a 52.56% testing accuracy.
 
-Among the models examined was an adapted version of an LSTM constructed by [Seth Adams](https://github.com/seth814/Audio-Classification/blob/master/models.py). This returned a training accuracy of 65.66% and a testing accuracy of 42.69%.
+Among the models examined was an adapted version of an LSTM constructed by [Seth Adams](https://github.com/seth814/Audio-Classification/blob/master/models.py). This returned a training accuracy of 68.90% and a testing accuracy of 43.05%.
 
 The model selected for further optimization was a CNN architecture inspired by [Stefan Kahl](https://www.kaggle.com/stefankahl/birdclef2021-model-training). This initially returned a training accuracy of 86.81% and a testing accuracy of 68.65%.
 
-This model's performance was more deeply examined when utilizing L1 (lasso) vs L2 (ridge) regularization, relocation of dropout layers, and trimming of trainable parameters in order to mitigate overfitting. The final prototype's performancers were 72.14% during training and 66.29% during testing.
+This model's performance was more deeply examined when utilizing L1 (lasso) vs L2 (ridge) regularization, relocation of dropout layers, and trimming of trainable parameters in order to mitigate overfitting. The final prototype's performancers were 71.51% during training and 66.06% during testing.
 
 ![final_model_vis](images/final_model_results.png)
 
@@ -71,4 +71,4 @@ For any additional questions, please contact [Jeremy Pagirsky](mailto:jeremy.pag
 ├── images                                     <- Images of models' accuracy and loss scores during training
 ├── README.md                                  <- The README for reviewers of this project
 ├── birdclef-audio-classification.ipynb        <- Project code
-├── presentation                               <- Non-technical presentation
+├── presentation.pdf                           <- Non-technical presentation

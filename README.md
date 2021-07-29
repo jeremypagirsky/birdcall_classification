@@ -21,9 +21,11 @@ The data was obtained from the BirdCLEF 2021 Kaggle competition. The original da
 ![dist](images/species_distribution.png)
 
 Here are the counts of ratings for each recording.
+
 ![rate](images/ratings.png)
 
 Here are the geographical locations for each recording.
+
 ![map](images/map.png)
 
 ## Results
@@ -38,7 +40,7 @@ The model selected for further optimization was a CNN architecture inspired by [
 
 This model's performance was more deeply examined when utilizing L1 (lasso) vs L2 (ridge) regularization, relocation of dropout layers, and trimming of trainable parameters in order to mitigate overfitting. The final prototype's performancers were 72.14% during training and 66.29% during testing.
 
-![final_model_vis](images/)
+![final_model_vis](images/final_model/results.png)
 
 ## Future Work
 

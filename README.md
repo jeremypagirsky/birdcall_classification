@@ -40,7 +40,7 @@ The model selected for further optimization was a CNN architecture inspired by [
 
 This model's performance was more deeply examined when utilizing L1 (lasso) vs L2 (ridge) regularization, relocation of dropout layers, and trimming of trainable parameters in order to mitigate overfitting. The final prototype's performancers were 72.14% during training and 66.29% during testing.
 
-![final_model_vis](images/final_model/results.png)
+![final_model_vis](images/final_model_results.png)
 
 ## Future Work
 
